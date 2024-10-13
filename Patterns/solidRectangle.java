@@ -1,3 +1,4 @@
+package Patterns;
 // This a pattern to print using java 
 
 import java.io.*;

@@ -1,3 +1,4 @@
+package Patterns;
 // Rectangle that empty inside
 
 import java.util.*;

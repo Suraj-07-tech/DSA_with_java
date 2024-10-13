@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class solidRhombus {
@@ -6,8 +8,8 @@ public class solidRhombus {
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter Number of Rows : ");
         rows = obj.nextInt();
+        // Imcomplete
 
-        
         obj.close();
     }
 }
