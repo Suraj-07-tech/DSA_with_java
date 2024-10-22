@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class interchange_odd_even_elements {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        System.out.println("Enter the size of the array");
+        System.out.println("Enter the size of the array (Even Size only )");
         int size;
         size = obj.nextInt();// Taking input for array size
         if (size % 2 == 0) {
@@ -14,7 +14,7 @@ public class interchange_odd_even_elements {
             int o = 0;
             int even[] = new int[size / 2];
             int e = 0;
-            System.out.println("Enter the elements of the array");
+            System.out.println("Enter the elements of the array (Note the odd and even elements must be equal )");
             for (int i = 0; i < size; i++) {
                 arr[i] = obj.nextInt();// elements input
                 if (arr[i] % 2 == 1) {
@@ -43,8 +43,8 @@ public class interchange_odd_even_elements {
             }
 
             // Interchanging items
-            e = 0;
-            o = 0;
+            e = 0;// resetting e =0
+            o = 0;// resetting o =0
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] % 2 == 1) {
                     arr[i] = even[e];
