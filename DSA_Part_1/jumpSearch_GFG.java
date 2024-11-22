@@ -21,7 +21,6 @@ public class jumpSearch_GFG {
         // beginning with prev.
         while (arr[prev] < x) {
             prev++;
-
             // If we reached next block or end of that block
             // array, element is not present.
             if (prev == Math.min(step, n))
