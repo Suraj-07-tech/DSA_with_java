@@ -1,3 +1,31 @@
+/* 
+1. Start
+2. Initialize Array
+    Declare arr[] = {1, 2, 3, 4, 5, 6, 45, 67, 89, 100}.
+    Read target.
+3.  Check if Array is Empty
+    Condition: arr.length == 0
+    True: Print "Array is empty" → End
+    False: Proceed.
+4.  Check if Target Matches First Element
+    Condition: arr[0] == target
+    True: Print "Element present at index 0" → End
+    False: Proceed.
+    Initialize Bound
+5.  Set bound = 1.
+    Expand Bound
+    Condition: bound < arr.length && arr[bound] < target
+    True: Double bound (bound *= 2) → Repeat.
+    False: Proceed.
+    Perform Binary Search
+    Call expoSearch(arr, bound / 2, Math.min(bound, arr.length - 1), target).
+    Check Binary Search Result
+    Condition: index == -1
+    True: Print "Element not present" → End
+    False: Print "Element present at index: index" → End.
+6.   End
+*/
+
 import java.util.Scanner;
 
 public class exponentialSearch {
