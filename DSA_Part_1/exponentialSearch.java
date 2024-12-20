@@ -23,7 +23,7 @@
     Condition: index == -1
     True: Print "Element not present" → End
     False: Print "Element present at index: index" → End.
-6.   End
+6.  End
 */
 
 import java.util.Scanner;
